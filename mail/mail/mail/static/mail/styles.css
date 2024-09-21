@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 3px;
+    font-family: 'Poppins', sans-serif;
+}
+
+textarea {
+    min-height: 300px;
+    overflow-y: scroll;
+
+}
+
+.read {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+    background-color: #d7d7d7;
+}
+
+.unread {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+    background-color: white;
+}
+
+.unread p {
+    margin-left: auto;
+}
+
+.read p {
+    margin-left: auto;
+}
+
+.list-group-item1 {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+
+}
+
+.list-group-item1 p {
+    margin-left: auto;
+}
+
+.list-group-item {
+    list-style: none;
+}
+
+.sub {
+    text-decoration: underline;
+}
+
+.form-control {
+    width: 97%;
+    padding: 6px;
+}
+
+.btn-sm,
+.btn-outline-primary {
+    border: 1px solid #4287f7;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: small;
+    background-color: white;
+    color: #4287f7;
+    padding: 6px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.maincon {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 2px solid lightgrey;
+}
+
+
+
+.btn-success,
+.btn-primary {
+    background-color: green;
+    border: 1px solid #0ffc5e;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: small;
+    color: white;
+    padding: 8px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.btn-danger {
+    background-color: red;
+    border: 1px solid #f76642;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: small;
+    color: white;
+    padding: 8px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+
+.btn-info {
+    background-color: rgb(32, 94, 175);
+    border: 1px solid #4287f7;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: small;
+    color: white;
+    padding: 8px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.email1 {
+    border: 2px solid#4287f7;
+    border-radius: 2px 15px;
+}
+
+.logo1 {
+    margin-left: auto;
+}
+
+.logo1 img {
+    width: 125px;
+}
